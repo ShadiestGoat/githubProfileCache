@@ -1,4 +1,4 @@
-# Code line Aggregator
+# Code Language Aggregator
 
 A bit of a silly billy idea, but basically this project periodically fetches all the repos in your github profile, and counts up language use\*
 

@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/joho/godotenv"
 )
 
 type respRepo struct {
@@ -44,6 +45,8 @@ type typeInfo struct {
 }
 
 func main() {
+	godotenv.Load()
+	
 	go StartCacheLoop()
 	
 	r := chi.NewRouter()

@@ -22,7 +22,7 @@ var c = &cacheT{
 
 func updateCache() {
 	headers := http.Header{}
-	headers.Set("Authorization", "Bearer "+os.Getenv("AUTHENTICATION"))
+	headers.Set("Authorization", "Bearer " + os.Getenv("AUTHENTICATION"))
 
 	page := 1
 

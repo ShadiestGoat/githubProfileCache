@@ -59,4 +59,6 @@ func main() {
 		c.RUnlock()
 		w.Write(p)
 	})
+
+	http.ListenAndServe(":" + os.Getenv("PORT"), r)
 }

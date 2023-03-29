@@ -21,3 +21,5 @@ You can then query for the aggregate results.
 ## Config
 
 A `.env` file with 2 keys - `AUTHENTICATION`, which is where you place your github key (ghp_\*) and `PASSWORD`, which is where you write a password to authenticate requests. This can be anything!
+
+Finally, this will be hosted on env variable `PORT`.
